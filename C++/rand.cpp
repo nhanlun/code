@@ -28,6 +28,8 @@ int main()
 {
     int cmd;
     int x; string y;
+    cout << "Enter 1 to practice dec to hex\n";
+    cout << "Enter 2 to practice hex to dec\n";
     while (cin >> cmd)
     {
         if (cmd == 1) 
