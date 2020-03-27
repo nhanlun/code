@@ -1,9 +1,17 @@
-class HelloWorld
+public class HelloWorld
 {
     public static void main(String[] args)
     {
-        int a = 10;
-        a += 10;
-        System.out.println(a);
+        Cat neko = new Cat();
+        System.out.println(neko.numberOfMeows);
+    }
+}
+
+class Cat
+{
+    int numberOfMeows = 10;
+    public Cat(int x)
+    {
+        // numberOfMeows = 0;
     }
 }
